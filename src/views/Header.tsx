@@ -1,7 +1,7 @@
 import * as React from "react";
-import "./App.css";
+import "./../App.css";
 
-const logo = require("./logo.svg");
+const logo = require("./../logo.svg");
 
 class Header extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class Header extends React.Component {
       <div className="Header">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Oxidation</h1>
         </header>
       </div>
     );
